@@ -1,16 +1,3 @@
-"""
-app/prepare_data.py
-Stage 1 — Load and explore the Telco Customer Churn dataset.
-
-Dataset: IBM Telco Customer Churn (free, from Kaggle or IBM)
-Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
-
-Download the CSV and place it at: data/telco_churn.csv
-
-Run:
-    python app/prepare_data.py
-"""
-
 import os
 import sys
 import pandas as pd
@@ -114,7 +101,7 @@ if __name__ == "__main__":
     df = load_data(DATA_PATH)
     df = explore(df)
     df = clean(df)
-    #plot_churn_distribution(df)
+    plot_churn_distribution(df)
     save_clean(df)
 
     print("\nStage 1 complete.")

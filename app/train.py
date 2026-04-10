@@ -1,12 +1,3 @@
-"""
-app/train.py
-Stage 2 — Build a scikit-learn Pipeline, train XGBoost,
-evaluate with multiple metrics, and save the model.
-
-Run:
-    python app/train.py
-"""
-
 import os
 import sys
 import joblib

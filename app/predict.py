@@ -1,12 +1,3 @@
-"""
-app/predict.py
-Stage 3 — Load the saved pipeline and make predictions.
-Tests the model independently before wrapping it in the API.
-
-Run:
-    python app/predict.py
-"""
-
 import os
 import sys
 import joblib
